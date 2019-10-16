@@ -13,41 +13,47 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="ABout" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO
+        title="ABout"
+        keywords={[
+          `about`,
+          `gatsby`,
+          `photography`,
+          `joseph chow`,
+          `pixel`,
+          `pixel 2`,
+        ]}
+      />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
+            Hello! My name is Joseph and I have owned a Pixel 2XL since it came
+            out. Here I am with my phone!
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
+            <figcaption>Me in my work bathroom</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="dynamic-styles">About me</h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            Like most, I was very impressed with the camera's capabilities,
+            expecially the extreme dynamic range.
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            They say that the best camera you own is the one you are currently
+            holding. My phone follows me essentially wherever I go, allowing me
+            to basically capture things as I see them. I decided to make a small
+            photo journal to show off the Pixel 2's amazing camera.
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            If you like what you see, and would like to more of what the best of
+            smartphone cameras can do?{" "}
+            <a href="https://docs.ghost.org/integrations/">Click here</a> to
+            donate to my Pixel 4 fund!
           </p>
         </div>
       </article>
@@ -62,9 +68,7 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
-    ) {
+    benchAccounting: file(relativePath: { eq: "profile-pic.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
