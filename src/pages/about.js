@@ -52,7 +52,7 @@ const AboutPage = ({ data }, location) => {
           <p>
             If you like what you see, and would like to more of what the best of
             smartphone cameras can do?{" "}
-            <a href="https://docs.ghost.org/integrations/">Click here</a> to
+            <a href="https://paypal.me/chow90?locale.x=en_US/">Click here</a> to
             donate to my Pixel 4 fund!
           </p>
         </div>
