@@ -49,14 +49,14 @@ const Layout = props => {
               >
                 Twitter
               </a>
-              <Link
-                to={`https://instragram.com/joefstack`}
+              <a
+                href="https://instagram.com/joefstack"
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Instagram
-              </Link>
+              </a>
             </div>
           </div>
         </div>
