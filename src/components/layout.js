@@ -50,7 +50,7 @@ const Layout = props => {
                 Twitter
               </a>
               <Link
-                to={`/https://instragram.com/joefstack`}
+                to={`https://instragram.com/joefstack`}
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"

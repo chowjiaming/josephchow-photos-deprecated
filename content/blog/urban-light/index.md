@@ -1,6 +1,6 @@
 ---
 title: Urban Light
-date: "2019-09-14"
+date: "2019-10-13"
 thumbnail: ./1-min.jpg
 description: Light traveling through an urban space has always drawn me in. Here are some sunny photos from my recent trip to Chicago.
 ---
