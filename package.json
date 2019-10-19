@@ -1,7 +1,7 @@
 {
   "name": "josephchow-photos",
   "private": true,
-  "description": "A personal photo journal from my Pixel 2XL",
+  "description": "A photo journal from my Pixel 2XL",
   "version": "1.0.0",
   "author": "Joseph Chow <joefstack@gmail.com>",
   "bugs": {

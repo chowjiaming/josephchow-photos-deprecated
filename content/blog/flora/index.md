@@ -13,12 +13,6 @@ description: Check out the impressive macros I was able to get with these flower
 
 <div class="kg-card kg-image-card kg-width-full">
 
-![Flora](./3-min.jpg)
-
-</div>
-
-<div class="kg-card kg-image-card kg-width-full">
-
 ![Flora](./4-min.jpg)
 
 </div>
